@@ -1,65 +1,58 @@
 [
     {
         "id": 1,
-        "name": "Mike Lawson",
+        "name": "Mike Gosling",
+        "arvatar": "img/mike-gosling.png",
+        "title": "Toyota for sale",
         "desc": "full sounds set up",
-        "tribe": "Digital",
-        "Squad": "Cards",
-        "title": "Tester",
-        "arvatar": "img/mike-lawson.png"
+        "price": 4000
     },
     {
         "id": 2,
-        "name": "Sahil Matts",
+        "name": "David Matts",
+        "arvatar": "img/david-matts.png",
+        "title": "Toyota for sale",
         "desc": "full sounds set up",
-        "tribe": "Digital",
-        "Squad": "Cards",
-        "title": "EO",
-        "arvatar": "img/sahil-matts.png"
+        "price": 4000
     },
     {
         "id": 3,
-        "name": "Ramamo Gols",
+        "name": "Reds Gols",
+        "arvatar": "img/reds-gols.png",
+        "title": "Toyota for sale",
         "desc": "full sounds set up",
-        "tribe": "Digital",
-        "Squad": "Cards",
-        "title": "Tester",
-        "arvatar": "img/Ramao-gols.png"
+        "price": 4000
     },
     {
         "id": 4,
-        "name": "Richard Buran",
+        "name": "Richard Bryan",
+        "arvatar": "img/richard-bryan.png",
+        "title": "Toyota for sale",
         "desc": "full sounds set up",
-        "tribe": "Digital",
-        "Squad": "Cards",
-        "title": "Tester",
-        "arvatar": "img/richard-buran.png"
+        "price": 4000
     },
     {
         "id": 5,
-        "name": "Rommel Suzen",
+        "name": "Roo Suzen",
+        "arvatar": "img/roo-suzen.png",
+        "title": "Toyota for sale",
         "desc": "full sounds set up",
-        "tribe": "Digital",
-        "Squad": "Cards",
-        "title": "Dev",
-        "arvatar": "img/rommel-suzen.png"
+        "price": 4000
     },
     {
         "id": 6,
-        "name": "Sydney Crocker",
+        "name": "Sydney Feales",
+        "arvatar": "img/sydney-feales.png",
+        "title": "Toyota for sale",
         "desc": "full sounds set up",
-        "tribe": "Digital",
-        "Squad": "Cards",
-        "title": "Digital Analyst",
-        "arvatar": "img/sydney-crocker.png"
+        "price": 4000
     },
     {
         "id": 7,
         "name": "Yini Yin",
+        "arvatar": "img/yini-yin.png",
+        "title": "Toyota for sale",
         "desc": "full sounds set up",
-        "tribe": "Digital",
-        "Squad": "Cards",
-        "title": "Dev",
-        "arvatar": "img/yini-yin.png"
+        "price": 4000
     }
 ]
