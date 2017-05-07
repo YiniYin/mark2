@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name": "Mike Lawson",
+        "desc": "full sounds set up",
+        "tribe": "Digital",
+        "Squad": "Cards",
+        "title": "Tester",
+        "arvatar": "img/mike-lawson.png"
+    },
+    {
+        "id": 2,
+        "name": "Sahil Matts",
+        "desc": "full sounds set up",
+        "tribe": "Digital",
+        "Squad": "Cards",
+        "title": "EO",
+        "arvatar": "img/sahil-matts.png"
+    },
+    {
+        "id": 3,
+        "name": "Ramamo Gols",
+        "desc": "full sounds set up",
+        "tribe": "Digital",
+        "Squad": "Cards",
+        "title": "Tester",
+        "arvatar": "img/Ramao-gols.png"
+    },
+    {
+        "id": 4,
+        "name": "Richard Buran",
+        "desc": "full sounds set up",
+        "tribe": "Digital",
+        "Squad": "Cards",
+        "title": "Tester",
+        "arvatar": "img/richard-buran.png"
+    },
+    {
+        "id": 5,
+        "name": "Rommel Suzen",
+        "desc": "full sounds set up",
+        "tribe": "Digital",
+        "Squad": "Cards",
+        "title": "Dev",
+        "arvatar": "img/rommel-suzen.png"
+    },
+    {
+        "id": 6,
+        "name": "Sydney Crocker",
+        "desc": "full sounds set up",
+        "tribe": "Digital",
+        "Squad": "Cards",
+        "title": "Digital Analyst",
+        "arvatar": "img/sydney-crocker.png"
+    },
+    {
+        "id": 7,
+        "name": "Yini Yin",
+        "desc": "full sounds set up",
+        "tribe": "Digital",
+        "Squad": "Cards",
+        "title": "Dev",
+        "arvatar": "img/yini-yin.png"
+    }
+]
