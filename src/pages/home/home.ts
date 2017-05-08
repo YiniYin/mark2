@@ -12,6 +12,8 @@ import { Batch } from '../../providers/batch'
 
 export class HomePage {
 
+  items = [];
+
   constructor(
     public navCtrl: NavController,
     public toastCtrl: ToastController,
@@ -29,7 +31,7 @@ export class HomePage {
   ngOnInit() {
     this.batch.get<any>()
       .then(res => {
-        let ad = res
+        this.items = res
       })
 
     this.showHelpHint()
