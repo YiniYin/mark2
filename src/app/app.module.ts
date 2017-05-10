@@ -15,7 +15,7 @@ import { HomePage } from '../pages/home/home'
 import { StatusBar } from '@ionic-native/status-bar'
 import { SplashScreen } from '@ionic-native/splash-screen'
 
-import { Batch } from '../providers/batch'
+import { BatchService } from '../providers/batch-service'
 
 
 const components = [
@@ -30,7 +30,7 @@ const components = [
 ]
 
 const providers = [
-  Batch,
+  BatchService,
   StatusBar,
   SplashScreen,
   { provide: ErrorHandler, useClass: IonicErrorHandler }

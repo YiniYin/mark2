@@ -2,7 +2,7 @@ import { Component } from '@angular/core'
 import { NavController } from 'ionic-angular'
 import { ToastController } from 'ionic-angular'
 
-import { Batch } from '../../providers/batch'
+import { BatchService } from '../../providers/batch-service'
 
 
 @Component({
@@ -12,12 +12,12 @@ import { Batch } from '../../providers/batch'
 
 export class HomePage {
 
-  items = [];
+  items = []
 
   constructor(
     public navCtrl: NavController,
     public toastCtrl: ToastController,
-    private batch: Batch) { }
+    private batchService: BatchService) { }
 
   showHelpHint() {
     let toast = this.toastCtrl.create({
@@ -29,9 +29,9 @@ export class HomePage {
   }
 
   ngOnInit() {
-    this.batch.get<any>()
+    this.batchService.get<any>()
       .then(res => {
-        this.items = res
+        this.items = res.batch
       })
 
     this.showHelpHint()

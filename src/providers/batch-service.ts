@@ -6,7 +6,7 @@ import 'rxjs/add/operator/catch'
 import 'rxjs/add/operator/toPromise'
 
 @Injectable()
-export class Batch {
+export class BatchService {
 
   url: string = 'stubs/batch.json'
 
