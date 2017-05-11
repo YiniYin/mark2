@@ -5,7 +5,7 @@
 
 
 
-  <h2>Welcome to mark2!</h2>
+  <h2>Welcome to !</h2>
   <p>
     what are you looking for?
   </p>
@@ -13,29 +13,43 @@
 
   <ion-card *ngFor="let item of items">
 
-    <img src="img/advance-card-bttf.png">
+    <ion-row color="light">
+      <ion-col>
+        <ion-item>
+          {{item.node.formatted_price.text}}
+        </ion-item>
+      </ion-col>
+      <ion-col>
+        <ion-item>
+          {{item.node.location.reverse_geocode_detailed.city}}
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <img src="assets/img/bjork-live.jpg">
 
     <ion-card-content>
       <ion-card-title>
-        {{item.node.group_commerce_item_title}}
+        Nine Inch Nails Live
       </ion-card-title>
       <p>
-        {{item.node.tagline}}
+        The most popular industrial group ever, and largely responsible for bringing the music to a mass audience.
       </p>
     </ion-card-content>
 
     <ion-item>
-      <ion-icon name='ios-star-outline' item-left style="color: #d03e84"></ion-icon>
-      star
-      <ion-badge item-right>9</ion-badge>
+      <ion-avatar item-left>
+        <img src="assets/img/avatar-yoda.png">
+      </ion-avatar>
+      <h2>Marty McFly</h2>
+      <p>Member since November 5, 1955</p>
     </ion-item>
 
     <ion-item>
-      <ion-icon name='md-medal' item-left style="color: #55acee"></ion-icon>
-      badge
-      <ion-badge item-right>260k</ion-badge>
+      <ion-icon name="ios-star-outline"></ion-icon>
+      Stars
+      <ion-badge>260</ion-badge>
     </ion-item>
-
   </ion-card>
 
 </ion-content>
