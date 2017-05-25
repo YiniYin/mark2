@@ -1,0 +1,55 @@
+<ion-content padding>
+
+
+  <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+
+
+
+  <h2>Welcome to !</h2>
+  <p>
+    what are you looking for?
+  </p>
+
+
+  <ion-card *ngFor="let item of items">
+
+    <ion-row color="light">
+      <ion-col>
+        <ion-item>
+          {{item.node.formatted_price.text}}
+        </ion-item>
+      </ion-col>
+      <ion-col>
+        <ion-item>
+          {{item.node.location.reverse_geocode_detailed.city}}
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <img src="assets/img/bjork-live.jpg">
+
+    <ion-card-content>
+      <ion-card-title>
+        Nine Inch Nails Live
+      </ion-card-title>
+      <p>
+        The most popular industrial group ever, and largely responsible for bringing the music to a mass audience.
+      </p>
+    </ion-card-content>
+
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="assets/img/avatar-yoda.png">
+      </ion-avatar>
+      <h2>Marty McFly</h2>
+      <p>Member since November 5, 1955</p>
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name="ios-star-outline"></ion-icon>
+      Stars
+      <ion-badge>260</ion-badge>
+    </ion-item>
+  </ion-card>
+
+</ion-content>

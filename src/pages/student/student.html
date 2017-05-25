@@ -1,0 +1,42 @@
+<ion-content padding>
+
+  <ion-searchbar (ionInput)="searchStudents($event)"></ion-searchbar>
+
+  <ion-grid>
+    <ion-row>
+
+      <ion-col *ngFor="let student of students" col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3>
+
+        <ion-card>
+          <ion-item>
+
+            <div class="gavatar {{student.beltColor}}" item-left>
+              {{student.initials}}
+            </div>
+
+            <div item-left>
+            {{student.Name}}
+            </div>
+            <ion-toggle value="foo" color="secondary" checked="{{student.IsActive}}">
+            </ion-toggle>
+          </ion-item>
+
+          <ion-item>
+            <ion-note ion-text item-start color="subtle" class="item-bold">
+              {{student.Grade.Description}}
+            </ion-note>
+            <button ion-button icon-left clear item-right>
+              <ion-icon name="ios-flash-outline"></ion-icon>
+              3 weeks ago
+            </button>
+          </ion-item>
+
+        </ion-card>
+
+      </ion-col>
+
+    </ion-row>
+
+  </ion-grid>
+
+</ion-content>

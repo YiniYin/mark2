@@ -11,11 +11,14 @@ import { TabsPage } from '../pages/tabs/tabs'
 import { NotificationPage } from '../pages/notification/notification'
 import { MessagePage } from '../pages/message/message'
 import { HomePage } from '../pages/home/home'
+import { StudentPage } from '../pages/student/student'
+import { AttendencePage } from '../pages/attendence/attendence'
 
 import { StatusBar } from '@ionic-native/status-bar'
 import { SplashScreen } from '@ionic-native/splash-screen'
 
 import { BatchService } from '../providers/batch-service'
+import { StudentService } from '../providers/student-service'
 
 
 const components = [
@@ -26,10 +29,13 @@ const components = [
   NotificationPage,
   MessagePage,
   HomePage,
+  AttendencePage,
+  StudentPage,
   TabsPage
 ]
 
 const providers = [
+  StudentService,
   BatchService,
   StatusBar,
   SplashScreen,
