@@ -1,0 +1,25 @@
+
+
+
+<ion-content padding>
+    <div id="punch-card">
+        <div class="punch-card-day" *ngFor="let card of punchCards">
+            <div class="punch-card-day-name">
+                <div class="punch-card-day-name-label">{{card.day}}</div>
+            </div>
+            <div class="punch-card-hour" *ngFor="let punch of card.punches">
+                <div class="punch-card-hour-data size-{{punch}}" (mouseover)="mouseOver" ></div>
+                <div class="punch-card-hour-tooltip"  *ngIf="false">
+                    <b>{{punch}}</b> attended
+                    <div class="arrow"></div>
+                </div>
+                <div class="punch-card-hour-tick"></div>
+            </div>
+        </div>
+        <div class="punch-card-hour-name">
+            <div class="punch-card-hour-name-label" ng-repeat='hour in hours'>
+                {{hour}}
+            </div>
+        </div>
+    </div>
+</ion-content>

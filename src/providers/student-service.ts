@@ -5,7 +5,7 @@ import 'rxjs/add/operator/toPromise'
 import 'rxjs/add/operator/catch'
 import 'rxjs/add/operator/toPromise'
 
-import { StudentEntity, Student } from '../entities/student-entity'
+import { StudentEntity } from '../entities/student-entity'
 
 @Injectable()
 export class StudentService {

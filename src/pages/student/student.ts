@@ -25,7 +25,7 @@ export class StudentPage {
     this.studentSrv.get()
       .then(studentEntity => {
         this.studentEntity = studentEntity
-        
+
         this.students = studentEntity.students
       })
   }
